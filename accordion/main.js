@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("h2").on("click", (function){
-    $("#sec1").addClass("move")
+  $("h2 #sec1 #sec2 #sec3").on("click", (function){
+    $(this).addClass("squish")
   })
 })

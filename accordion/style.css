@@ -9,7 +9,7 @@ body {
 }
 
 h2 {
-  position: relative;
+  height:50px;
   color:white;
   background-color: #00C6D6;
   padding:15px;
@@ -27,11 +27,11 @@ div {
   transition: 2s;
 }
 
-#sec1.move {
+#sec1.squish {
   height: 0px;
 }
 
-div.move {
+div.squish {
   height:0px;
 }
 
