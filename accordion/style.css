@@ -1,2 +1,37 @@
 html {box-sizing:border-box;}
 *, *:before, *:after {box-sizing:inherit;}
+
+body {
+  width:500px;
+  margin:auto;
+  border: solid 1px #00C6D6;
+  overflow: hidden;
+}
+
+h2 {
+  position: relative;
+  color:white;
+  background-color: #00C6D6;
+  padding:15px;
+  margin:0;
+  transition: 2s left;
+}
+
+h2:hover {
+  background-color: #00DAEC;
+}
+
+div {
+  height: 200px;
+  overflow: auto;
+  transition: 2s;
+}
+
+#sec1.move {
+  height: 0px;
+}
+
+div.move {
+  height:0px;
+}
+
