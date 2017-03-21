@@ -1,37 +1,40 @@
-html {box-sizing:border-box;}
+html {box-sizing:border-box; font-family: "Arial", sans-serif}
 *, *:before, *:after {box-sizing:inherit;}
 
 body {
   width:500px;
   margin:auto;
-  border: solid 1px #00C6D6;
+  border: solid 1px #3FC6D1;
   overflow: hidden;
 }
 
-h2 {
+a {
   height:50px;
   color:white;
   background-color: #00C6D6;
   padding:15px;
   margin:0;
-  transition: 2s left;
+  transition: 1s height;
+  border-top:solid 1px #3FC6D1;
+  display: block;
+  text-decoration: none;
 }
 
-h2:hover {
+a:hover {
   background-color: #00DAEC;
 }
 
 div {
-  height: 200px;
-  overflow: auto;
-  transition: 2s;
-}
-
-#sec1.squish {
   height: 0px;
+  overflow: auto;
+  transition: 1s height;
 }
 
-div.squish {
-  height:0px;
+p {
+  padding: 20px;
+}
+
+.squish {
+  height: 200px;
 }
 
